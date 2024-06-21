@@ -1,0 +1,11 @@
+// {
+//   "extends": ["next/core-web-vitals", "next/babel"],
+//   "css.lint.unknownAtRules": ["@tailwindcss(base)", "@tailwindcss(components)", "@tailwindcss(utilities)"]
+// }
+// {
+//   "extends": ["next","next/core-web-vitals"],
+//   "rules": {
+//     "@next/next/no-img-element": "off"
+//   }
+// }
+
