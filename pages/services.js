@@ -8,7 +8,8 @@ export default function services() {
   // console.log(services);
 
   useEffect(() => {
-    axios.get('/api/services').then((response) => setservices(response.data));
+    // // if there is services this should populate services
+    // axios.get('/api/services').then((response) => setservices(response.data));
 
   }, []);
 

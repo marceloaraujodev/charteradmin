@@ -6,8 +6,8 @@ export default async function handle(req, res) {
   const {method} = req;
   await mongooseConnect();
 
-  // makes the admin panel secure
-  await isAdminRequest(req, res);
+  // // makes the admin panel secure
+  // await isAdminRequest(req, res);
 
   // console.log(session) // session contains user info and expires
   

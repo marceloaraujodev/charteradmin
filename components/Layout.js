@@ -8,23 +8,23 @@ export default function Layout({ children }) {
   const { data: session } = useSession();
 
 
-// // controls login activate later only of fpr editing
-  if (!session) {
-    return (
-      <div className="bg-bgGray w-screen h-screen flex items-center">
-        <div className="text-center w-full">
-          <button
-            className="bg-white p-2 px-4"
-            onClick={() => {
-              signIn('google');
-            }}
-          >
-            Login with Google
-          </button>
-        </div>
-      </div>
-    );
-  }
+// // // controls login activate later only of fpr editing
+//   if (!session) {
+//     return (
+//       <div className="bg-bgGray w-screen h-screen flex items-center">
+//         <div className="text-center w-full">
+//           <button
+//             className="bg-white p-2 px-4"
+//             onClick={() => {
+//               signIn('google');
+//             }}
+//           >
+//             Login with Google
+//           </button>
+//         </div>
+//       </div>
+//     );
+//   }
   return (
     <div className="bg-bgGray min-h-screen">
       <div className='md:hidden flex items-center p-4'>

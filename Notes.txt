@@ -1,0 +1,4 @@
+
+🔸 Google signin turn off components Layout.js comment out if(!session)
+
+🔸 Validation Midware like isAdmin() turn off for testing
